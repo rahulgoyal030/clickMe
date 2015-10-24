@@ -6,7 +6,7 @@ import java.util.Random;
 // git added
 
 
-class MyFrame  implements ActionListener
+class MyFrame  implements ActionListener   // using swing
 { 
 	 JFrame f,f2;
 	 JLabel  image[]= new JLabel[10];
