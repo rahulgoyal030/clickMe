@@ -57,7 +57,7 @@ class MyFrame  implements ActionListener   // using swing
 		f.add(start);
 
 
-		start.addActionListener(this);
+		start.addActionListener(this);   // ActionListener
 
 		time = new Timer(45000,this);
 		time.setRepeats(false);
