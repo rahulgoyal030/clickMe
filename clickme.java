@@ -37,7 +37,7 @@ class MyFrame  implements ActionListener   // using swing
 			f.add(button[i]);
 			button[i].addActionListener(this);
 
-			image[i]= new JLabel(new ImageIcon("pic.png"));
+			image[i]= new JLabel(new ImageIcon("pic.png"));  // background image 
 			image[i].setBounds(x+10,y-75,60,75);
 			f.add(image[i]);
 			image[i].setVisible(false);
